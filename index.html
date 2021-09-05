@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/style.css">
+    <title>Scroll Ad</title>
+</head>
+
+<body>
+    <ul class="list-container">
+        <li class="list-item">
+            <h3>Title</h3>
+            <p>Description</p>
+        </li>
+        <li class="list-item">
+            <h3>Title</h3>
+            <p>Description</p>
+        </li>
+        <li class="list-item">
+            <h3>Title</h3>
+            <p>Description</p>
+        </li>
+        <li class="list-item">
+            <h3>Title</h3>
+            <p>Description</p>
+        </li>
+        <li class="list-item">
+            <h3>Title</h3>
+            <p>Description</p>
+        </li>
+        <li class="list-item">
+            <h3>Title</h3>
+            <p>Description</p>
+        </li>
+        <li class="list-item">
+            <h3>Title</h3>
+            <p>Description</p>
+        </li>
+        <li class="list-item">
+            <h3>Title</h3>
+            <p>Description</p>
+        </li>
+        <li class="list-item">
+            <h3>Title</h3>
+            <p>Description</p>
+        </li>
+        <li class="list-item">
+            <h3>Title</h3>
+            <p>Description</p>
+        </li>
+        <li class="list-item">
+            <h3>Title</h3>
+            <p>Description</p>
+        </li>
+        <li class="list-item">
+            <h3>Title</h3>
+            <p>Description</p>
+        </li>
+        <li class="list-item">
+            <h3>Title</h3>
+            <p>Description</p>
+        </li>
+        <li class="list-item">
+            <h3>Title</h3>
+            <p>Description</p>
+        </li>
+        <li class="list-item space" id="ad">
+            <a class="close-ad" onclick="removeAd()">[x]close</a>
+        </li>
+        <li class="list-item">
+            <h3>Title</h3>
+            <p>Description</p>
+        </li>
+        <li class="list-item">
+            <h3>Title</h3>
+            <p>Description</p>
+        </li>
+        <li class="list-item">
+            <h3>Title</h3>
+            <p>Description</p>
+        </li>
+        <li class="list-item">
+            <h3>Title</h3>
+            <p>Description</p>
+        </li>
+        <li class="list-item">
+            <h3>Title</h3>
+            <p>Description</p>
+        </li>
+        <li class="list-item">
+            <h3>Title</h3>
+            <p>Description</p>
+        </li>
+        <li class="list-item">
+            <h3>Title</h3>
+            <p>Description</p>
+        </li>
+        <li class="list-item">
+            <h3>Title</h3>
+            <p>Description</p>
+        </li>
+        <li class="list-item">
+            <h3>Title</h3>
+            <p>Description</p>
+        </li>
+        <li class="list-item">
+            <h3>Title</h3>
+            <p>Description</p>
+        </li>
+        <li class="list-item">
+            <h3>Title</h3>
+            <p>Description</p>
+        </li>
+        <li class="list-item">
+            <h3>Title</h3>
+            <p>Description</p>
+        </li>
+        <li class="list-item">
+            <h3>Title</h3>
+            <p>Description</p>
+        </li>
+    </ul>
+</body>
+
+<script>
+    function removeAd() {
+        const element = document.getElementById('ad');
+        element.classList.add("remove");
+
+        setTimeout(() => {
+            element.parentNode.removeChild(element);
+        }, 1000);
+    }
+</script>
+
+</html>
